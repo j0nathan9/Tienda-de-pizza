@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;600;700;800 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*font-family: 'Permanent Marker', cursive;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav,
+    .offcanvas {
+      background-color: #1e293b;
+    }
+    .navbar-toggler {
+      border: none;
+    }
+    .navbar-toggler:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    
+nav{
+        position: fixed;
+        width: 100%;
+        padding: 10px 0;
+        z-index: 12;
+        
+    }
+
+    h1{
+        color: #e67103;
+        font-family: 'Permanent Marker', cursive;
+    }
+
+    .offcanvas-body ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 8px 15px;
+        border-radius: 5px;
+        transition: all 0.3% ease;
+    }
+
+
+    .offcanvas-body ul{
+        display: inline-flex;
+    }
+    
+    .offcanvas-body ul li{
+        list-style: none;
+        margin-left: 7px;
+    }
+    
+    .offcanvas-body ul li:first-child{
+        margin-left: 0px;
+    }
+
+    @media (max-width: 768px) {
+        .navbar-nav > li:hover {
+          background-color: #0dcaf0;
+        }
+    }
+
+    #imagen{
+        height: 65px;
+    }    
+
+    #imagen2{
+        height: 50px;
+    }
+
+
+
+body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f5f5f5;
+        background: #e7e0d5;
+}    
+
+
+h5 { 
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-family: 'Permanent Marker', cursive;
+    color: #e67103;
+    text-align: center;
+    margin: 30px 40px;
+}
+
+.pizza-content {
+    margin-bottom: 55px;
+    margin: 0px 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.pizza-1 img {
+    width: 250px;
+}
+
+.pizza-1{
+    background-color: #ffffff;
+    height: 430px;
+    width: 400px;
+}
+
+.btn-2 {
+    display: inline-block;
+    color: #f5efeb;
+    padding: 13px 30px;
+    background-color: #e67103;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+}
+
+.container{
+    margin: 20px 40px;
+}
+
+main .btn-2{
+    margin: 20px 40px;
+}
+
+#comentarios, #ciudad, #radio1, #texto{
+    margin-left:30px ;
+}
+
+label{
+    margin-left: 30px;
+}
+
+footer {
+    margin: 50px 40px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e9b60d;
+}
+
+#sociales{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a .btn-2{
+    padding: 13px 30px;; 
+    background: light-gray; 
+    color: black; 
+}
+
+.btn-2:hover { 
+    padding: 13px 30px; 
+    background: #fd8d25; 
+    color: white; 
+  } 
+  .btn-2:active { 
+    padding: 13px 30px; 
+    background: #fd8d25; 
+    color: white; 
+  }
+
+.link h3 {
+    color: #34077c;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.link a {
+    display: block;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+}
+.link a:hover,.letras a:hover {
+    color: #e9b60d;
+}
+
+@media (max-width: 768px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #imagen{
+        height: 40px;
+    } 
+
+    #imagen2{
+        height: 40px;
+    } 
+
+    h5 { 
+        font-size: 50px;
+        letter-spacing: 5px;
+        font-family: 'Permanent Marker', cursive;
+        color: #e67103;
+    }
+
+    .pizza {
+        padding: 30px;
+    }
+    .pizza-content{
+        margin-top: 15px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .pizza-1{
+        background-color: #ffffff;
+        height: 430px;
+        width: 250px;
+    }
+
+
+    .btn-2 {
+        display: inline-block;
+        color: #f5efeb;
+        padding: 13px 30px;
+        background-color: #e67103;
+        border-radius: 25px;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: 0;
+        cursor: pointer;
+        margin: 3vh;
+    }
+
+    .container{
+        margin: 0;
+    }
+}
